@@ -1,0 +1,45 @@
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .center, .right {
+    flex: 1;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+h1{
+    text-align:center;
+    color:red;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: bisque;
+}
+
+.expense-table th, .expense-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+    margin-right: 10px;
+}
+
+.input-container button {
+    margin-left: 10px;
+}
